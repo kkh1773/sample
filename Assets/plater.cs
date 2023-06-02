@@ -5,6 +5,7 @@ using UnityEngine;
 public class plater : MonoBehaviour
 {
     public GameObject bb;
+    public GameObject Firepos;
     private float ss = 0;
     // Start is called before the first frame update
     void Start()
@@ -19,7 +20,7 @@ public class plater : MonoBehaviour
         {
             if (ss >= 0.2)
             {
-                Instantiate(bb);
+                Instantiate(bb,Firepos.transform.position,Firepos.transform.rotation);
                 ss = 0;
             }
             ss += Time.deltaTime;
