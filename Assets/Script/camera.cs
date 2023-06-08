@@ -36,7 +36,7 @@ public class camera : MonoBehaviour
     Quaternion targetRotation = Quaternion.Euler(myTransform.eulerAngles.x, Transform.eulerAngles.y, myTransform.eulerAngles.z);
 
     float elapsedTime = 0f;
-    float duration=0.1f;
+    float duration=0.5f;
     while (elapsedTime < duration)
     {
         elapsedTime += Time.deltaTime;
