@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 3130133397032914831}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: Untagged
+  m_TagString: fire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -111,6 +111,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41b26a84b5bfff5429252695b2df6b07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 10
 --- !u!54 &3130133397032914831
 Rigidbody:
   m_ObjectHideFlags: 0
